@@ -74,7 +74,7 @@ public class BinaryTree {
 //
 //            return null;
 //        }
-
+        //Delete nodes
         if (root.key == x) {
             if (root.left == null && root.right == null) {
                 return null;
